@@ -18,6 +18,13 @@ int getAnalog()
 	return sum>>5;
 }
 
+int getLightLevel()
+{
+	int val_light = getAnalog();					// get analog value
+	int level = map(val_light, 0, 1023, 0, 10);		// make level
+	return level;
+}
+
 // set led bar, 0-10 level. 
 // 0 led for level-0 and 10 leds for level-10
 void setLight(int lev)
@@ -48,9 +55,8 @@ void setup()
 
 void loop()
 {
-	int val_light = getAnalog();					// get analog value
-	
-	int level = map(val_light, 0, 1023, 0, 10);		// make level
+
+	int level = getLightLevel();					// get light level
 	
 	setLight(level);								// set led bar
 	
