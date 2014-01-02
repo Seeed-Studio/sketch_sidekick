@@ -13,7 +13,7 @@ Welcome to the world of electronic creation! Sidekick Advanced Kit is an Arduino
 
 This is a Sketchbook of Arduino.([How to use Sketchbook](http://www.seeedstudio.com/wiki/How_To_Use_Sketchbook "How to use Sketchbook"))
 
-This Sketchbook includes7 demos about sensor of the kit. 
+This Sketchbook includes 7 demos about sensor of the kit. 
 
 
 <br>
