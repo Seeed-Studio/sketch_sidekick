@@ -4,7 +4,7 @@
 void setup()
 {
     Serial.begin(38400);
-    IR.Init(A4);
+    IR.Init(A0);
     Serial.println("init over");
 }
 
