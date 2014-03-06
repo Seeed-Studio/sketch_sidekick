@@ -1,5 +1,4 @@
 #include <IRSendRev.h>
-//#include <IRSendRevInt.h>
 
 void setup()
 {
